@@ -8,6 +8,9 @@ from .api import router
 from .work_api import router as work_router
 from .hr_api import router as hr_router
 from .config import settings
+from .website import router as website_router
+from .portfolio import router as portfolio_router
+from .google_reviews import router as reviews_router
 from .jobs.scheduler import run_scheduler
 
 
@@ -25,10 +28,13 @@ async def lifespan(app):
 
 app = FastAPI(title="my_time API", version="0.1.0", lifespan=lifespan)
 app.add_middleware(CORSMiddleware, allow_origins=settings.CORS_ORIGINS,
-                   allow_methods=["GET", "POST", "PATCH"], allow_headers=["Authorization", "Content-Type"])
+                   allow_methods=["GET", "POST", "PATCH", "DELETE"], allow_headers=["Authorization", "Content-Type"])
 app.include_router(router)
 app.include_router(work_router)
 app.include_router(hr_router)
+app.include_router(website_router)
+app.include_router(portfolio_router)
+app.include_router(reviews_router)
 
 
 @app.exception_handler(IntegrityError)

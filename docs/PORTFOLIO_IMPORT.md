@@ -17,3 +17,9 @@ PYTHONPATH=src ../venv/bin/python -m my_time.import_wordpress \
 ```
 
 Inspect the staging report before using `--apply`. Applying merges records by stable IDs, takes a private website snapshot, and preserves existing edits. It does not publish to the live nial.in site or change DNS/hosting.
+
+## Included public assets
+
+The repository includes website_data/content.json, portfolio.json, the homepage work images, and the portfolio_assets WebP/GIF images. A fresh clone contains the public gallery without needing the original WordPress backup. Keep this directory persistent and writable on the backend host; set WEBSITE_DATA_DIR to its absolute path if the server starts elsewhere. Subsequent administrator uploads change runtime data and need their own backup or explicit Git commit. Do not overwrite newer production uploads with an older checkout.
+
+The .gitignore rules allow only these public files. Google OAuth credentials, lock files, import reports, database files, and private backups remain excluded.

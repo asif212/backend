@@ -11,6 +11,14 @@ __pycache__/
 *.egg-info/
 *.db
 *.db-*
-website_data/
+# Commit only public website data and images. Keep all other runtime files private.
+website_data/*
+!website_data/content.json
+!website_data/portfolio.json
+!website_data/work-*.webp
+!website_data/portfolio_assets/
+website_data/portfolio_assets/*
+!website_data/portfolio_assets/*.webp
+!website_data/portfolio_assets/*.gif
 
 website_import_backups/

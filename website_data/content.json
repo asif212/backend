@@ -1,0 +1,106 @@
+{
+  "brand": "NialTech",
+  "tagline": "A creative perspective.",
+  "hero_title": "Good stories deserve\na different perspective.",
+  "hero_text": "Design. Imagery. Motion. Digital experiences with a little more feeling.",
+  "email": "",
+  "phone": "",
+  "location": "",
+  "whatsapp": "917909058028",
+  "accent": "#8E43F0",
+  "accent_dark": "#6300E2",
+  "sections": [
+    {
+      "id": "about",
+      "eyebrow": "THE WAY WE SEE IT",
+      "title": "A little imagination.\nA lasting impression.",
+      "text": "We bring design, imagery and technology together. From the first idea to the final frame, our focus is on thoughtful details and work that feels unmistakably yours.",
+      "visible": true
+    },
+    {
+      "id": "work",
+      "eyebrow": "A CLOSER LOOK",
+      "title": "Made to be remembered.",
+      "text": "A place for our visual explorations, projects and the ideas behind them.",
+      "visible": true
+    },
+    {
+      "id": "films",
+      "eyebrow": "STORIES IN MOTION",
+      "title": "Every frame has a feeling.",
+      "text": "Motion graphics, films and edits that give an idea a life of its own.",
+      "visible": true
+    },
+    {
+      "id": "services",
+      "eyebrow": "WHAT WE DO",
+      "title": "One idea.\nMany possibilities.",
+      "text": "From a fresh visual identity to a considered digital presence, find the right creative direction for your next chapter.",
+      "visible": true
+    },
+    {
+      "id": "contact",
+      "eyebrow": "LET’S CREATE SOMETHING",
+      "title": "Your next chapter\nstarts with a hello.",
+      "text": "Have an idea, a brief, or just a question? We’d love to hear what you have in mind.",
+      "visible": true
+    }
+  ],
+  "cards": [
+    {
+      "slot": "work-1",
+      "title": "Logo Design",
+      "category": "PORTFOLIO",
+      "description": "Explore the Logo Design collection.",
+      "link": "",
+      "portfolio_section_id": "d8a49be95b345f7ea17f8d381ee40d19"
+    },
+    {
+      "slot": "work-2",
+      "title": "Poster | Banner | Stories | Brochure",
+      "category": "PORTFOLIO",
+      "description": "Explore the Poster | Banner | Stories | Brochure collection.",
+      "link": "",
+      "portfolio_section_id": "a620b87e9cca5cc1aa353f473d57f453"
+    },
+    {
+      "slot": "work-3",
+      "title": "Illustrations",
+      "category": "PORTFOLIO",
+      "description": "Explore the Illustrations collection.",
+      "link": "",
+      "portfolio_section_id": "d2f86409de58513188d9bf56c0b08892"
+    },
+    {
+      "slot": "work-4",
+      "title": "Photoshop Works",
+      "category": "PORTFOLIO",
+      "description": "Explore the Photoshop Works collection.",
+      "link": "",
+      "portfolio_section_id": "8f70a0627bb550ca88d9605d181d3d6b"
+    },
+    {
+      "slot": "film-1",
+      "title": "A feeling, in motion",
+      "category": "MOTION GRAPHICS",
+      "description": "Film preview — add your project description and a YouTube or Vimeo link.",
+      "link": "",
+      "portfolio_section_id": null
+    },
+    {
+      "slot": "film-2",
+      "title": "The spaces between",
+      "category": "VIDEO EDITING",
+      "description": "Film preview — add your project description and a YouTube or Vimeo link.",
+      "link": "",
+      "portfolio_section_id": null
+    }
+  ],
+  "services": [
+    "Graphic design",
+    "Photo editing",
+    "Motion graphics",
+    "Web development",
+    "Video editing"
+  ]
+}
